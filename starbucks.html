@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Star bucks Website Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="/images-starbucks/logo.png">
+</head>
+<body>
+<!--LANDING PAGE-->
+	<section id="home">
+		<div class="circle"></div>
+		<header>
+			<a href="#"><img src="images-starbucks/logo.png" class="logo"></a>
+			<ul>
+				<li><a href="#home" id="a">Home</a></li>
+				<li><a href="#vid" id="a">What's New</a></li>
+				<li><a href="#nav_team" id="a">Our Team</a></li>
+				<li><a href="#nav_table" id="a">Contributors</a></li>
+			</ul>
+			<img src="images-starbucks/moon.png" id="icon">
+		</header>
+
+		<div class="content">
+			<div class="textBox">
+				<h2>It's not just Coffee<br>It's <span>StarBucks</span></h2>
+				<p>Starbucks was founded by Jerry Baldwin, Gordon Bowker, and Zev Siegl,<br> opening its first store in 1971 near the historic Pike Place Market in Seattle.... <br>
+				<br>By the early 1980s, Starbucks had opened four stores in Seattle that stood out from the competitors with their top-quality fresh-roasted coffees.</p>
+				<button>More</button> 
+			</div>
+			<div class="imgBox">
+				<img src="images-starbucks/img 1.png" class="Starbucks">
+			</div>
+		</div>
+		<ul class="thumb">
+			<li><img src="images-starbucks/thumb1.png" onclick="imgSlider('images-starbucks/img 1.png');changeCircleColor('#017143')"></li>
+			<li><img src="images-starbucks/thumb2.png" onclick="imgSlider('images-starbucks/img 2.png');changeCircleColor('#eb7495')"></li>
+			<li><img src="images-starbucks/thumb3.png" onclick="imgSlider('images-starbucks/img 3.png');changeCircleColor('#d752b1')"></li>
+		</ul>
+		<ul class="sci">
+			<li><a href="#"><img src="images-starbucks/facebook.png"></li></a>
+			<li><a href="#"><img src="images-starbucks/twitter.png"></li></a>
+			<li><a href="#"><img src="images-starbucks/instagram.png"></li></a>
+		</ul>
+	</section>
+<!--END OF LANDING PAGE-->
+<!--VIDEO PAGE-->
+	<div class="vid" id="vid">
+		<iframe width="1523" height="670" src="https://www.youtube.com/embed/u3ybWiEUaUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+<!--END OF VIDEO PAGE-->
+<!--TEAM PAGE-->
+	<div id="nav_team">
+		<h1 id="head">OUR <span id="green">TEAM</span></h1>
+		<div class="testimonial" id="test">
+				<div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p>
+						Coffee of the text<br> of the of the of the industry.<br> cool been the industry's<br>standard dummy text ever coffee
+				</p>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<img src="/images-starbucks/faizan.jpeg">
+				<h3>Faizan Nabi</h3>
+			</div>
+				<div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p>
+					Cafe of the Best caffiene text<br> of the printing and typesetting industry.<br> Branded coffee has been the industry's<br>standard dummy text great coffee 
+				</p>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<img src="/images-starbucks/ashwin.jpeg">
+				<h3>Ashwin Nair</h3>
+			</div>
+				<div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p>
+					Coffee isa amazing<br> of the printing and typesetting industry.<br> Coffee caffene been the industry's<br>standard dummy text op op
+				</p>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<img src="/images-starbucks/profile.jpg">
+				<h3>Suprit Pandurangi</h3>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+<!--END OF TEAM PAGE-->
+<!--TABLE PAGE-->
+	<div class="tab" id="nav_table">
+		<h1>CONTRI<span id="green">BUTORS</span></h1>
+		<hr>
+		<table class="content-table"> 
+		<thead >
+			<tr>
+				<th>NAME</th>
+				<th>WORKED ON</th>
+		   </tr>
+		</thead>
+		 <tbody id="table">
+			 <tr>
+				 <td>Ashwin</td>
+				 <td>Quality Inspection , Contributors Page, video page</td>
+			 </tr>
+			 <tr class="active-row">
+				 <td>Faizan</td>
+				 <td>Landing Page , User Interface , Final Styling</td>
+			 </tr>
+			 <tr>
+				 <td>Suprit</td>
+				 <td>Footer , Testimonial </td>
+			 </tr>
+		 </tbody>
+	</table>
+	</div>
+<!--END OF TABLE PAGE-->
+<!--FOOTER PAGE-->
+	<footer>
+		<div class="footer">
+		<div class="row">
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-instagram"></i></a>
+		<a href="#"><i class="fa fa-youtube"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		</div>
+		
+		<div class="row">
+		<ul>
+		<li><a href="#">Contact us</a></li>
+		<li><a href="#">Our Services</a></li>
+		<li><a href="#">Privacy Policy</a></li>
+		<li><a href="#">Terms & Conditions</a></li>
+		<li><a href="#">Career</a></li>
+		</ul>
+		</div>
+		
+		<div class="row">
+		FAIZAN Copyright © 2021 - All rights reserved || Designed By: FAIZAN | SUPRIT | ASHWIN 
+		</div>
+		</div>
+		</footer>
+<!--END OF FOOTER PAGER-->
+
+
+
+	<script type="text/javascript">
+		function imgSlider(anything){
+			document.querySelector('.Starbucks').src = anything;
+		}
+		function changeCircleColor(color){
+			const circle = document.querySelector('.circle');
+			circle.style.background = color;
+		}
+
+		var icon = document.getElementById("icon");
+
+		icon.onclick = function(){
+			document.body.classList.toggle("dark-theme");
+			if(document.body.classList.contains("dark-theme")){
+				icon.src = "images-starbucks/sun.png"
+			}else{
+				icon.src = "images-starbucks/moon.png"
+			}
+		}
+	</script>
+</body>
+</html>
